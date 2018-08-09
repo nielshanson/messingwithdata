@@ -1,0 +1,2 @@
+"0","users = data.frame(""userId""=c(1,2,3,4,5), ""department""=c('a','a','b','b','c'))"
+"0","users"

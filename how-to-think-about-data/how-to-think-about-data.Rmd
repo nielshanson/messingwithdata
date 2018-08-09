@@ -1,0 +1,60 @@
+---
+title: "How to think about data."
+output: html_notebook
+---
+
+## Tables: They have rows and columns
+
+|              | Teatment_A | Treatment_B |
+|:------------:|:---------:|:----------:|
+|  John  |     NA    |      2     |
+|   Jane   |     16    |     11     |
+| Mary |     3     |      1     |
+
+## Data:
+
+* Data is a collection of *values*
+  * Numbers (quantitative)
+  * Strings (qualitative)
+* Every *value* belongs to both a variable and observation:
+  * *Variable*: contains all values that measure the same underlying attribute
+  * *Observation*: contains all values measured on the same unit
+
+Lets reorganize the first table to make the variables, values, and observations more clear. The variables are:
+
+1. *person*, with three possible values (John, Mary, Jane)
+2. *treatment*, with two possible values (Treatment_A, Treatment_B)
+3. *result*, five or six values depending on how you think about the missing value
+
+In this *experimental design* all possible values of person and treatment were measured.
+
+| Person | Treatment | Result |
+|:------:|:---------:|:------:|
+|  John  |     A     |   NA   |
+|  Jane  |     A     |   16   |
+|  Mary  |     A     |    3   |
+|  John  |     B     |    2   |
+|  Jane  |     B     |   11   |
+|  Mary  |     B     |    1   |
+
+There might be multiple levels of observation:
+
+* Demographic data for each person (birthday, sex, race)
+* Medical data for each day (no. of sneezes, redness of eyes)
+* Weather data for each day (temperature, pollen count)
+
+A dataset is *tidy* if
+
+1. Each variable forms a column
+2. Each observation forms a row
+3. Each type of observational unit forms a table
+
+However, a tidy dataset is not the most efficient:
+
+* Storage efficient: Many repeated values
+* Computationally efficient: For lookup or algorithmicly
+
+# Readings
+
+* [Tidy Data by Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf)
+* [Split Apply Combine](https://www.jstatsoft.org/article/view/v040i01)

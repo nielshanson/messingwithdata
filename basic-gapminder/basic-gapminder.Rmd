@@ -1,0 +1,15 @@
+---
+title: "Basic Gapminder"
+output: html_notebook
+---
+
+```{r}
+users = data.frame("userId"=c(1,2,3,4,5),
+                   "departmentName"=c('a','a','b','b','c'))
+users
+```
+
+```{r}
+department = data.frame("departmentName"=c('a','b','c'),
+                        )
+```

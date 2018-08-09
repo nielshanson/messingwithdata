@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/messing-with-data/basic-gapminder",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

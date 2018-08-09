@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Basic Gapminder\"\noutput: html_notebook\n---\n\n```{r}\nusers = data.frame(\"userId\"=c(1,2,3,4,5),\n                   \"departmentName\"=c('a','a','b','b','c'))\nusers\n```\n\n```{r}\ndepartment = data.frame(\"departmentName\"=c('a','b','c'),\n                        )\n```",
+    "created" : 1533777865508.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "814756165",
+    "id" : "4FA94EF0",
+    "lastKnownWriteTime" : 1533778680,
+    "last_content_update" : 1533778680632,
+    "path" : "~/Documents/messing-with-data/basic-gapminder/basic-gapminder.Rmd",
+    "project_path" : "basic-gapminder.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
